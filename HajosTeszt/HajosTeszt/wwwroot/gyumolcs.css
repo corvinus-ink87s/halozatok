@@ -1,0 +1,233 @@
+﻿/*====ALTALANOS====*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(135,206,250);
+    padding: 0px;
+    margin: 0px;
+}
+
+/*====MENUK====*/
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li a {
+    display: block;
+    padding: 8px;
+    margin-bottom: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(143, 195, 58);
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#menu .active {
+    background-color: rgb(179, 125, 78);
+}
+
+#menu li a:hover {
+    background-color: rgb(146, 102, 63);
+}
+
+/*====TAGEK====*/
+
+header {
+    padding: 2px;
+    margin: 0px;
+    background-color: rgb(50, 140, 193);
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+}
+
+article {
+    background-color: rgb(27, 123, 52);
+    padding: 0px 8px;
+    color: #ffffff;
+    text-align: justify;
+    border-radius: 15px;
+}
+
+aside {
+    background-color: rgb(205, 83, 96);
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.84em;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: rgb(179, 125, 78);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+/*====OSZTALYOK====*/
+
+aside.tápérték {
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+img.gyumolcskep {
+    max-width: 100%;
+    height: auto;
+    float: right;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+h2.cikkcim {
+    display: table;
+    text-align: left;
+}
+
+
+p.tartalom {
+    padding: 3px;
+    text-indent: 1.1em;
+}
+
+aside.bananszin {
+    background-color: rgba(220, 178, 57, 0.85);
+}
+
+aside.szilvaszin {
+    background-color: rgba(107, 122, 143, 0.85);
+}
+
+aside.eperszin {
+    background-color: rgba(184, 38, 1, 0.85);
+}
+
+/*====RESZPONZIVITAS====*/
+
+[class*="col-"] { /*mobile first*/
+    float: left;
+    padding: 15px;
+    width: 100%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media only screen and (min-width: 600px) {
+    /* tablet */
+    .col-t-1 {
+        width: 8.33%;
+    }
+
+    .col-t-2 {
+        width: 16.66%;
+    }
+
+    .col-t-3 {
+        width: 25%;
+    }
+
+    .col-t-4 {
+        width: 33.33%;
+    }
+
+    .col-t-5 {
+        width: 41.66%;
+    }
+
+    .col-t-6 {
+        width: 50%;
+    }
+
+    .col-t-7 {
+        width: 58.33%;
+    }
+
+    .col-t-8 {
+        width: 66.66%;
+    }
+
+    .col-t-9 {
+        width: 75%;
+    }
+
+    .col-t-10 {
+        width: 83.33%;
+    }
+
+    .col-t-11 {
+        width: 91.66%;
+    }
+
+    .col-t-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* számítógép */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
