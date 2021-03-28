@@ -21,8 +21,7 @@
             sordiv.appendChild(elemdiv);
             elemdiv.classList.add("elem");
             elemdiv.innerText = faktorialisR(sor) / (faktorialisR(oszlop) * faktorialisR(sor - oszlop));
-            elemdiv.style.background = 'rgb(0,0, ${255*2/elemdiv.innerText) + 125}';
-
+            elemdiv.style.background = 'rgb(0,0, ${255*2/elemdiv.innerText) + 125}' 
 
         }
     }
