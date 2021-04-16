@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>lassan</title>
+
+    <script>
+        function szoveg() {
+            const kiirando = "Ezt szépen lassan jelenítjük meg...";
+            const kiirt = document.getElementById("mezo").value;
+            const kiirandoHossz = kiirando.length;
+            const kiirtHossz = kiirt.length;
+            if (kiirtHossz < kiirandoHossz) {
+                document.getElementById("mezo").value = kiirando.substing(0, kiirtHossz+1);
+                setTimeout("kiiras()", 300)
+            }
+        }
+    </script>
+</head>
+<body onload="szoveg()">
+    <form action="#">
+        <p>
+            <input id="mezo" type="text" size="35" />
+        </p>
+    </form>
+</body>
+</html>
