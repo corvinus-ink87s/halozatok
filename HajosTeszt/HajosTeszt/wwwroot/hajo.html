@@ -3,33 +3,53 @@
 <head>
     <meta charset="utf-8" />
     <title>Teszt</title>
+    <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
     <link href="hajos.css" rel="stylesheet">
+    <script src="/hetedik.js"></script>
 </head>
+
 <body>
-    <div id="kulso">
-        <div id="kerdes_szoveg">
-            Kérdés szövege
+    <div id="külső">
+        <div id="kérdés_szöveg">
+
         </div>
+        <div id="középső">
 
+            <div id="válaszok">
+                <div id="válasz1" onclick="Válasz1()" class="kérdés kattintható">
+                    <div id="válasz1" onclick="Válasz1Új()" class="kérdés kattintható">
+                        Válasz 1
+                    </div>
 
-        <div id="kozepso">
-            <div id="valaszok">
-                <div id="valasz1" class="kerdes">Válasz 1</div>
-                <div id="valasz2" class="kerdes">Válasz 2</div>
-                <div id="valasz3" class="kerdes">Válasz 3</div>
+                    <div id="válasz2" onclick="Válasz2()" class="kérdés kattintható">
+                        <div id="válasz2" onclick="Válasz2Új()" class="kérdés kattintható">
+                            Válasz 2
+                        </div>
+
+                        <div id="válasz3" onclick="Válasz3()" class="kérdés kattintható">
+                            <div id="válasz3" onclick="Válasz3Új()" class="kérdés kattintható">
+                                Válasz 3
+                            </div>
+                        </div>
+
+                        <div id="kép">
+                            <img id="kép1" src="https://szoft1.comeback.hu/hajo/teszt-0050.jpg" />
+                            <img id="kép1" src="" />
+                        </div>
+                    </div>
+
+                    <div id="vezérlő">
+                        <div onclick="Vissza()" class="gomb kattintható">Vissza</div>
+                        <div onclick="Előre()" class="gomb kattintható">Előre</div>
+                        <div onclick="VisszaÚj()" class="gomb kattintható">Vissza</div>
+                        <div onclick="ElőreÚj()" class="gomb kattintható">Előre</div>
+                    </div>
+                </div>
             </div>
-
-            <div id="kep">
-                <img id="kep1" src="https://szoft1.comeback.hu/hajo/teszt-0050.jpg" />
-            </div>
-        </div>
-        <div id="vezerlo">
-            <diy class="kattinthato">Vissza</diy>
-            <diy class="kattinthato">Előre</diy>
         </div>
     </div>
+    
 
-
-  
 </body>
 </html>
+
