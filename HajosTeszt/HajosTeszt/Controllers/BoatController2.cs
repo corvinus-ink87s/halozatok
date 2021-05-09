@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HajosTeszt.Controllers
+/*namespace HajosTeszt.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -26,5 +26,5 @@ namespace HajosTeszt.Controllers
 
         }
     }
-}
+}*/
 

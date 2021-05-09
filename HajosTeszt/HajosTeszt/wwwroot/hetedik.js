@@ -91,3 +91,5 @@ window.onload = function () {
             document.getElementById("kérdés_szöveg").innerHTML = `<h2>${kérdések[kérdés].questionText}`;
             document.getElementById("válasz1").innerHTML = kérdések[kérdés].answer1;
             document.getElementById("válasz2").innerHTML = kérdések[kérdés].answer2;
+        }
+    }
